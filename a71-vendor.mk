@@ -381,7 +381,7 @@ PRODUCT_PACKAGES += \
     com.samsung.node.uniplugin_vdis \
     libMOTION \
     libFacialStickerEngine.arcsoft \
-    nfc_nci_nxp_vendor \
+    nfc_nci_nxp \
     vendor.nxp.nxpnfc@1.1 \
     factory.ssc \
     nxp.android.hardware.nfc@1.1-service
