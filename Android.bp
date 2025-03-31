@@ -2721,3 +2721,87 @@ cc_prebuilt_binary {
     relative_install_path: "hw",
     soc_specific: true,
 }
+
+cc_library_shared {
+    name: "com.samsung.sensormodule.0_0_lsi_s5kgw1s_new",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.sensormodule.0_0_lsi_s5kgw1s_old",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.sensormodule.0_1_sony_imx682",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.sensormodule.1_sony_imx616",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.sensormodule.2_hynix_hi1336",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.sensormodule.3_lsi_gc5035",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.sensormodule.4_lsi_gc5035_macro",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.sensormodule.8_sony_imx616_full",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.tuned.hynix_hi1336",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.tuned.lsi_gc5035",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.tuned.lsi_gc5035_macro",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.tuned.lsi_s5kgw1s",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.tuned.sony_imx616",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
+    name: "com.samsung.tuned.sony_imx682",
+    compile_multilib: "64",
+    soc_specific: true,
+}
